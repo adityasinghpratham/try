@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <link type="text/css" rel="stylesheet" href="magicscroll.css"/>
+<script type="text/javascript" src="magicscroll.js"></script>
+  <link type="text/css" rel="stylesheet" href="magicscroll/magicscroll.css"/>
+<script type="text/javascript" src="magicscroll/magicscroll.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Montserrat/Montserrat-Medium.ttf">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script>
+      $(document).ready(function(){
+        $(window).scroll(function() { // check if scroll event happened
+          if ($(document).scrollTop() > 0) { // check if user scrolled more than 50 from top of the browser window
+            $(".navbar").css("background-color", "#1C1A2A"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+          } else {
+            $(".navbar").css("background-color", ""); // if not, change it back to transparent
+          }
+        });
+      });
+      function scrollWin(x,y) {
+  window.scrollBy(x, y);
+}
+function myFunction() {
+document.getElementById("dev").style.backgroundColor = "#EB596E";
+}
+function myFunction() {
+document.getElementById("dev1").style.backgroundColor = "#EB596E";
+}
+function myFunction() {
+document.getElementById("dev2").style.backgroundColor = "#EB596E";
+}
+function myFunction() {
+document.getElementById("dev3").style.backgroundColor = "#EB596E";
+}
+function myFunction() {
+document.getElementById("dev").style.backgroundColor = "#EB596E";
+}
+  </script>
+  <body>
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-custom navbar-dark">
+      <a class="navbar-brand" href=""><img class="icon" src="Group 39.png" height=30px width=58px alt="">Qode Team</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="">About us</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="login.html">Contact us</a>
+          </li>
+      </ul>
+      </div>
+  </nav>
+  <div class="screen">
+    <div class="">
+      <img class="img" src="video-conference 1.png" alt="">
+  </div>
+    <div class="inner" style="position: relative; bottom:155px;">
+      <h4 class=""><a><img src="icons8-home-250-2 3.png" style="margin-right: 5px;" width=30px height=30px></a><a><img src="Unknown-30.png" height=30px></a><a> ABOUT US </a><a><img src="Unknown-30.png" height=30px></a><a> PORTFOLIO<a/></h4>
+    </div>
+ </div>
+
+  <div class="main">
+    <div class="st">
+      <h1 class="size">
+        <strong>We love what we do</strong> <br>
+        <strong>and who we do it for.</strong><br>
+      </h1>
+    </div>
+    <div class="nd">
+      <p>
+        We’ve had an amazing opportunity over the<br>
+        years to work with brands like these to create<br>
+        and enhance their digital products and<br>
+        services.
+      </p>
+    </div>
+  </div>
+  <div class="but">
+    <button type="button" name="button" class="btn btn-outline-light dev button2">Mobile Development</button>
+    <button type="button" name="button" class="btn btn-outline-light dev button1">Web Development</button>
+    <button type="button" name="button" class="btn btn-outline-light dev button1">Dekstop App Development</button>
+    <button type="button" name="button" class="btn btn-outline-light dev button1">UI/UX Design</button>
+    <button type="button" name="button" class="btn btn-outline-light dev button1">Machine Learning</button>
+  </div>
+
+  <h2 class="best" style="margin-bottom: 70px:"><strong>Best Apps</strong></h2>
+  <div class="container MagicScroll mcs-rounded" data-options="items: fit; step: 1;"  data-options="arrows: inside; items: auto;" style= "border: 0px solid;width: 100%; margin-right: -100px;margin-left: -110px;height:350px; overflow: scroll; overflow-y: hidden;white-space: nowrap;text-decoration: none;" >
+
+        <div class="bottom-left my_bg">
+          <h5  style="margin-left: 15px;padding-top: 215px;color: white ;float: left;color: white; text-decoration: none;"><b>Covid-19 Diseases<br>
+             Mobile Stattics App</b></h5>
+        </div>
+        <div class="bottom-left my_bg">
+          <h5  style="padding-left: 15px;padding-top: 215px;color: white ;float: left;color: white; text-decoration: none;"><b>Covid-19 Diseases<br>
+             Mobile Stattics App</b></h5>
+        </div>
+        <div class="bottom-left my_bg">
+          <h5  style="padding-left: 15px;padding-top: 215px;color: white ;float: left;color: white; text-decoration: none;"><b>Covid-19 Diseases<br>
+             Mobile Stattics App</b></h5>
+        </div>
+        <div class="bottom-left my_bg">
+          <h5  style="padding-left: 15px;padding-top: 215px;color: white ;float: left;color: white; text-decoration: none;"><b>Covid-19 Diseases<br>
+             Mobile Stattics App</b></h5>
+        </div>
+        <div class="bottom-left my_bg">
+          <h5  style="padding-left: 15px;padding-top: 215px;color: white ;float: left;color: white; text-decoration: none;"><b>Covid-19 Diseases<br>
+             Mobile Stattics App</b></h5>
+        </div>
+        <div class="bottom-left my_bg">
+          <h5  style="padding-left: 15px;padding-top: 215px;color: white ;float: left;color: white; text-decoration: none;"><b>Covid-19 Diseases<br>
+             Mobile Stattics App</b></h5>
+        </div>
+
+  </div>
+  <h2 class="best" style="margin-bottom: 40px;"><strong>Most Loved</strong></h2>
+  <div class="container MagicScroll mcs-rounded" data-options="items: fit; step: 1;"  data-options="arrows: inside; items: auto;" style= "border: 0px solid;width: 100%; margin-right: -100px;margin-left: -110px;height:350px; overflow: scroll; overflow-y: hidden;white-space: nowrap;text-decoration: none;" >
+
+        <div class="bottom-left my_bg">
+          <h5  style="margin-left: 15px;padding-top: 215px;color: white ;float: left;color: white; text-decoration: none;"><b>Covid-19 Diseases<br>
+             Mobile Stattics App</b></h5>
+        </div>
+        <div class="bottom-left my_bg">
+          <h5  style="padding-left: 15px;padding-top: 215px;color: white ;float: left;color: white; text-decoration: none;"><b>Covid-19 Diseases<br>
+             Mobile Stattics App</b></h5>
+        </div>
+        <div class="bottom-left my_bg">
+          <h5  style="padding-left: 15px;padding-top: 215px;color: white ;float: left;color: white; text-decoration: none;"><b>Covid-19 Diseases<br>
+             Mobile Stattics App</b></h5>
+        </div>
+        <div class="bottom-left my_bg">
+          <h5  style="padding-left: 15px;padding-top: 215px;color: white ;float: left;color: white; text-decoration: none;"><b>Covid-19 Diseases<br>
+             Mobile Stattics App</b></h5>
+        </div>
+        <div class="bottom-left my_bg">
+          <h5  style="padding-left: 15px;padding-top: 215px;color: white ;float: left;color: white; text-decoration: none;"><b>Covid-19 Diseases<br>
+             Mobile Stattics App</b></h5>
+        </div>
+        <div class="bottom-left my_bg">
+          <h5  style="padding-left: 15px;padding-top: 215px;color: white ;float: left;color: white; text-decoration: none;"><b>Covid-19 Diseases<br>
+             Mobile Stattics App</b></h5>
+        </div>
+
+  </div>
+  <h2 class="best" style="margin-bottom: 40px;"><strong>100% Client Satisfaction</strong></h2>
+
+    <div class="container MagicScroll mcs-rounded" data-options="items: fit; step: 1;"  data-options="arrows: inside; items: auto;" style= "border: 0px solid;width: 100%; margin-right: -100px;margin-left: -110px;height:350px; overflow: scroll; overflow-y: hidden;white-space: nowrap;text-decoration: none;" >
+
+          <div class="bottom-left my_bg">
+            <h5  style="margin-left: 15px;padding-top: 215px;color: white ;float: left;color: white; text-decoration: none;"><b>Covid-19 Diseases<br>
+               Mobile Stattics App</b></h5>
+          </div>
+          <div class="bottom-left my_bg">
+            <h5  style="padding-left: 15px;padding-top: 215px;color: white ;float: left;color: white; text-decoration: none;"><b>Covid-19 Diseases<br>
+               Mobile Stattics App</b></h5>
+          </div>
+          <div class="bottom-left my_bg">
+            <h5  style="padding-left: 15px;padding-top: 215px;color: white ;float: left;color: white; text-decoration: none;"><b>Covid-19 Diseases<br>
+               Mobile Stattics App</b></h5>
+          </div>
+          <div class="bottom-left my_bg">
+            <h5  style="padding-left: 15px;padding-top: 215px;color: white ;float: left;color: white; text-decoration: none;"><b>Covid-19 Diseases<br>
+               Mobile Stattics App</b></h5>
+          </div>
+          <div class="bottom-left my_bg">
+            <h5  style="padding-left: 15px;padding-top: 215px;color: white ;float: left;color: white; text-decoration: none;"><b>Covid-19 Diseases<br>
+               Mobile Stattics App</b></h5>
+          </div>
+          <div class="bottom-left my_bg">
+            <h5  style="padding-left: 15px;padding-top: 215px;color: white ;float: left;color: white; text-decoration: none;"><b>Covid-19 Diseases<br>
+               Mobile Stattics App</b></h5>
+          </div>
+
+    </div>
+
+
+
+  <footer id="footer">
+    <div class="container1">
+      <div id="top">
+      <h3 class="" style="padding-top: 30px;x"><img class="zoom1" style="padding-right: 10px;" src="Group 39.png" alt=""><b>Qode Team</b></h3>
+      <br>
+      <h5 class="" style="padding-top: 10px; padding-bottom: 10px;">Want to make a good business deal?</h5>
+      <button type="button" name="button" class="hover1 btn btn-outline-light" style="border:0px solid;border-radius: 25px; background-color: #EB596E; color: white;">Get in touch</button>
+      <hr>
+      </div>
+
+      <div id="sr-box">
+        <h5 class="bbb"><img class="zoom2" style="padding-right: 10px; width: 50px;" src="Group 39.png" alt=""><strong>Qode Team</strong></h5>
+        <img class="" src="Unknown-24.png" style="padding-top: 20px; padding-right: 20px; width: 42px;" alt="">
+        <img class="" src="Unknown-21.png" style="padding-top: 20px; padding-right: 20px; width: 42px;" alt="">
+        <img class="" src="Unknown-25.png" style="padding-top: 20px; padding-right: 20px; width: 42px;" alt="">
+        <img class="" src="Unknown-20.png" style="padding-top: 20px; padding-right: 20px; width: 42px;" alt="">
+      </div>
+      <div id="sd-box">
+        <h5 class="bbb"><b>Our Services</b></h5>
+        <p class="gap">UI/UX Design</p>
+        <p>App development</p>
+        <p>Website Development</p>
+        <p>Data Science</p>
+        <p>Machine Learning</p>
+      </div>
+      <div id="nt-box">
+        <h5 class="bbb"><b>Our Company</b></h5>
+        <p class="gap">About Us</p>
+        <p>Our Team</p>
+        <p>Careers</p>
+      </div>
+      <div id="rt-box">
+        <h5 class="bbb"><b>Contact Us</b></h5>
+        <p class="gap"><img class ="zoom" src="Unknown-26.png" alt="">  121 king 5t VC3000, US</p>
+        <p><img class ="zoom" src="Unknown-27.png" alt="">  888-123-43454</p>
+        <p><img class ="zoom" src="Unknown-23.png" alt="">  info@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+  </div>
+  </body>
+</html>
